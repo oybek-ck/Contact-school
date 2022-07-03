@@ -1,0 +1,1545 @@
+@import url(./fonts.css);
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.exrwedas {
+   scroll-behavior: smooth;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+.header {
+   background: url(../img/bacgraund.png) no-repeat center / cover;
+   width: 100%;
+
+}
+
+body {
+   background: #161D27;
+}
+
+.bg {
+   background: rgba(31, 39, 50, 0.81);
+
+}
+
+.container {
+   max-width: 1360px;
+   margin: 0 auto;
+   padding: 0 15px;
+   width: 100%;
+}
+
+.header__card {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 25px;
+   position: relative;
+}
+
+.header__btn {
+   padding: 12px 38px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 35px;
+   background: rgba(255, 255, 255, 0.1);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 0px;
+   transition: 0.5s;
+   color: #FFFFFF;
+
+}
+
+.header__btn:hover {
+   background: rgba(31, 39, 50, 0.81);
+   color: #D1B06B;
+   border-color: rgba(31, 39, 50, 0.81);
+
+}
+
+.header__card::before {
+   background: #4E555F;
+   height: 1px;
+   content: '';
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.header__logo {
+   display: flex;
+   justify-content: space-between;
+   padding: 33px 0;
+   align-items: center;
+   position: relative;
+}
+
+.header__link {
+   display: flex;
+   gap: 50px;
+}
+
+.card__header {
+   display: flex;
+   gap: 50px;
+}
+
+.header__email {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+
+}
+
+.link {
+   color: #FFFFFF;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 35px;
+   transition: 0.3s;
+}
+
+.link:hover {
+   color: #D1B06B;
+
+}
+
+.header__txt {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: #D1B06B;
+   padding-bottom: 1px;
+
+}
+
+.tell {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 26px;
+   color: #FFFFFF;
+}
+
+.header__logo::before {
+   background: #4E555F;
+   height: 1px;
+   content: '';
+   width: 100%;
+   position: absolute;
+   transition: 0.3s;
+   bottom: 0;
+   left: 0;
+
+}
+
+.header__main {
+   display: flex;
+   align-items: center;
+}
+
+.header__name {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 65px;
+   color: #FFFFFF;
+   padding-top: 14px;
+   padding-bottom: 21px;
+
+}
+
+.header__text {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 40px;
+   color: #D1B06B;
+   padding-bottom: 38px;
+   max-width: 655px;
+}
+
+.header__btr {
+   padding: 25px 71px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   text-align: center;
+   color: #1F2732;
+   background: #D1B06B;
+   border: 1px solid #D1B06B;
+   border-radius: 0px;
+   transition: 0.5s;
+}
+
+.header__btr:hover {
+   background: rgba(31, 39, 50, 0.81);
+   border-color: rgba(31, 39, 50, 0.81);
+
+   color: #D1B06B;
+   border-radius: 50px 0px;
+}
+
+.header__img {
+   max-width: 672px;
+   max-height: 608px;
+   padding-top: 20px;
+}
+
+.section__card {
+   background: rgba(22, 29, 39, 1);
+}
+
+.card__firm {
+   display: flex;
+   align-items: center;
+   padding-top: 140px;
+   gap: 62px;
+   padding-bottom: 143px;
+
+}
+
+.firm__img {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.firm__name {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.firm__namdir {
+   max-width: 95px;
+   padding-bottom: 43px;
+}
+
+.name {
+   max-width: 549px;
+   padding-bottom: 11px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 45px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+
+.firm__text {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+   padding-bottom: 32px;
+
+}
+
+.firm__oybek {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-bottom: 45px;
+}
+
+.firm__title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 40px;
+   color: #D1B06B;
+
+}
+
+.firm__btn {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.div {
+   background: #3B434E;
+   padding: 25px 61px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.firm__txt {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.txt {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   color: #D7D7D7;
+
+}
+
+.title {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   color: #D7D7D7;
+
+}
+
+.firm__btr {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #D1B06B;
+   padding: 25px 61px;
+   gap: 20px;
+}
+
+.txt__firm {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   color: #1F2732;
+}
+
+.our__card {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 130px;
+
+}
+
+.our__text {
+   font-family: 'Outfit';
+   max-width: 660px;
+   font-weight: 400;
+   font-size: 20px;
+   color: #D7D7D7;
+   padding-top: 30px;
+
+
+}
+
+.our__box {
+   display: flex;
+   flex-direction: column;
+}
+
+.our__title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 45px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+
+}
+
+.our__btn {
+   max-width: 95px;
+   padding-top: 11px;
+   padding-bottom: 60px;
+}
+
+.card__law {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-bottom: 140px;
+   justify-content: center;
+}
+
+.card__busines {
+   max-width: 400px;
+   max-height: 429px;
+   background: #1F2732;
+   padding: 60px 50px;
+
+}
+
+.busines__name {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   position: relative;
+}
+
+.contact {
+   display: none;
+   color: #D1B06B;
+   font-family: 'Cormorant Garamond';
+   font-size: 20px;
+}
+
+.busines__title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 35px;
+   color: #FFFFFF;
+   padding-bottom: 8px;
+
+}
+
+.busines__txt {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   color: #D7D7D7;
+
+}
+
+.busines__more {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 56px;
+   gap: 93px;
+
+}
+
+.busines__btn {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   height: 1px;
+   margin-bottom: 82px;
+   width: 100%;
+   background: #4E555F;
+}
+
+.busines__btr {
+   text-transform: capitalize;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #FFFFFF;
+   padding: 8px 26px;
+   background: #161D27;
+   transition: 0.5s;
+}
+
+.busines__btr:hover {
+   background: #D1B06B;
+   border-radius: 20px 0;
+   color: #161D27;
+}
+
+.menu__header {
+   display: none;
+
+}
+
+.section__main {
+   background: #FFFFFF;
+}
+
+.main__card-get {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.card-aur {
+   display: flex;
+   flex-direction: column;
+   padding-top: 124px;
+   justify-content: center;
+   align-items: center;
+}
+
+.img__aur {
+   max-width: 95px;
+}
+
+.aur-title {
+   text-align: center;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 54px;
+   font-family: 'Cormorant Garamond';
+   text-transform: capitalize;
+   color: #161D27;
+   padding-bottom: 11px;
+
+}
+
+.aur__text {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 40px;
+   color: #909090;
+
+}
+
+.aur__txt {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+   color: #909090;
+   margin-bottom: 60px;
+}
+
+.card__nuber {
+   display: flex;
+   padding-bottom: 82px;
+   gap: 30px;
+}
+
+.nuber__div {
+   display: flex;
+   align-items: center;
+   background: #FBFBFB;
+   padding-left: 30px;
+   justify-content: center;
+   gap: 20px;
+   padding: 30px 53px 30px 30px;
+   max-width: 433px;
+}
+
+.nuber__img {
+   width: 118px;
+}
+
+.nuber__title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 30px;
+   color: #1F2732;
+   padding-bottom: 3px;
+}
+
+.nuber__txt {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   text-transform: capitalize;
+   max-width: 176px;
+   color: #909090;
+   text-align: center;
+
+}
+
+.nuber__name {
+   max-height: 180px;
+}
+
+.bagraumd {
+   background: url(../img/IMAGE\ \(2\).png) no-repeat center / cover;
+   display: flex;
+   align-items: center;
+   padding-left: 30px;
+   width: 433px;
+   max-height: 180px;
+}
+
+.nuber__name-txt {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+   color: #FFFFFF;
+}
+
+.nuber__name-text {
+   font-family: 'Outfit';
+   max-width: 150px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+   color: #FFFFFF;
+
+
+}
+
+.meet__card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   padding: 90px 0;
+
+}
+
+.meet_img {
+   max-width: 94px;
+}
+
+.meet__title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 60px;
+   text-transform: capitalize;
+   color: #161D27;
+}
+
+.meet__card-brend {
+   display: flex;
+   justify-content: center;
+   gap: 120px;
+   align-items: center;
+   padding-bottom: 120px;
+}
+
+.section__meet-card {
+   background: url(../img/bolgasa.png)no-repeat center / cover;
+   height: 1330px;
+   width: 100%;
+   padding-top: 140px;
+}
+
+.card__top {
+   background: rgba(31, 39, 50, 0.85);
+   width: 1360px;
+   height: 1050px;
+   margin: 0 auto;
+   display: flex;
+   padding-left: 60px;
+   padding-top: 80px;
+   padding-right: 60px;
+   padding-bottom: 70px;
+   gap: 100px;
+
+}
+
+
+.top__main {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
+
+.top__card-name {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.top__main-title {
+   max-width: 378px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 58px;
+   text-transform: capitalize;
+   padding-bottom: 11px;
+   color: #FFFFFF;
+}
+
+.top__companiya__card {
+   gap: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
+
+.top__companiya-title {
+   font-family: 'Outfit';
+   font-weight: 400;
+   padding-bottom: 13px;
+   font-size: 20px;
+   line-height: 26px;
+   text-transform: capitalize;
+   color: #D1B06B;
+
+}
+
+.top__main-companiya {
+   max-width: 417px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+}
+
+.top__and-text {
+   padding-top: 43px;
+   max-width: 387px;
+   padding-bottom: 37px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+}
+
+.top__and-cases {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 40px;
+
+}
+
+.top__cases-title::before {
+   content: '';
+   bottom: -10px;
+   background: #fff;
+   background: calc(100% 75% #D1B06B);
+   width: 375px;
+   height: 5px;
+   left: 0;
+   right: 0;
+   position: absolute;
+}
+
+.top__cases-title {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #FFFFFF;
+   position: relative;
+}
+
+.top__cases-link {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.cases__btn {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 35px;
+   text-align: center;
+   letter-spacing: 0.4px;
+   color: #1F2732;
+}
+
+.cases__card__btn {
+   margin-top: 50px;
+}
+
+.btn {
+
+   background: #D1B06B;
+   border: 1px solid #D1B06B;
+   padding: 25px 71px;
+   margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+.card__bus-header {
+   margin-top: 124px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 11px;
+   margin-bottom: 100px;
+}
+
+.card__bus-title {
+   font-family: 'Cormorant Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 54px;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+
+.header__logo::after,
+.header__logo::before:hover {
+   background: #D1B06B;
+}
+
+.bus__card {
+   display: flex;
+   gap: 30px;
+   margin-bottom: 200px;
+   align-items: center;
+   justify-content: center;
+}
+
+.bus__card-box {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.bus__card-name {
+   width: 313px;
+   background: #2E3947;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 391px;
+   margin-bottom: 20px;
+   gap: 33px;
+   border-radius: 1px 1px 1px 40px;
+}
+
+.bus__card-text {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   color: #D7D7D7;
+   font-family: 'Outfit';
+   text-align: justify;
+   max-width: 219px;
+
+}
+
+.bus__card-img {
+   margin-right: 190px;
+}
+
+.card__bus-natasha {
+   display: flex;
+   align-items: center;
+   gap: 22px;
+}
+
+.natasha-title {
+   font-family: 'Outfit';
+   color: #D7D7D7;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+.natasha-text {
+   color: #D7D7D7;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+.bus__card-box:nth-child(2) {
+   flex-direction: column-reverse;
+   gap: 20px;
+}
+
+.bus__card-box:nth-child(4) {
+   flex-direction: column-reverse;
+   gap: 20px;
+}
+
+
+
+
+.section__card-word {
+   background: #161D27;
+   padding-bottom: 70px;
+}
+
+.section__card-our {
+   background: #fff;
+   padding-bottom: 124px;
+}
+
+.our__card-title {
+   display: flex;
+   flex-direction: column;
+   padding-top: 124px;
+   align-items: center;
+   justify-content: center;
+}
+
+.our__card-title {
+   text-align: center;
+   text-transform: capitalize;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 25px;
+   padding-bottom: 11px;
+   color: #161D27;
+
+}
+
+.card-titular {
+   display: flex;
+   gap: 30px;
+   align-items: start;
+   justify-content: center;
+}
+
+.card-titular-img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+}
+
+.titular-title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+   text-align: center;
+   padding-top: 20px;
+   color: #161D27;
+
+}
+
+.titular-text {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   text-align: center;
+   color: #D1B06B;
+
+}
+
+.center__titular {
+   width: 217px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #fff;
+   height: 66px;
+   transform: translateY(-100%);
+   gap: 21px;
+}
+
+.get__card {
+   display: flex;
+   gap: 100px;
+   padding: 150px 0;
+   justify-content: center;
+   align-items: center;
+}
+
+.get__card-name {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+}
+
+.get__card-title {
+   font-family: 'Cormorant Garamond';
+   max-width: 577px;
+   padding-bottom: 9px;
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 58px;
+   text-transform: capitalize;
+
+   color: #FFFFFF;
+}
+
+.get__card-text {
+   font-family: 'Outfit';
+   font-style: normal;
+   max-width: 608px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+   margin-top: 43px;
+   margin-bottom: 37px;
+}
+
+.get__card-link {
+   background: #D1B06B;
+   border: 1px solid #D1B06B;
+   width: 257px;
+   padding: 25px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 35px;
+   text-align: center;
+   color: #1F2732;
+}
+
+.fre__card {
+   max-width: 630px;
+   background: #FFFFFF;
+}
+
+.fer__card-name {
+   border: 15px solid #D7D7D7;
+   margin: 40px 40px;
+   max-width: 550px;
+   height: 410px;
+   display: flex;
+   padding: 55px;
+   align-items: center;
+   justify-content: center;
+   flex-direction: center;
+}
+
+.fre-title {
+   margin-bottom: 12px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 42px;
+   line-height: 55px;
+   color: #1F2732;
+
+}
+
+.fre-text {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #909090;
+
+}
+
+.fre__card-link {
+   display: flex;
+   gap: 15px;
+   align-items: center;
+}
+
+.fre-name {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #1F2732;
+
+}
+
+.fre__tel {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 42px;
+   color: #1F2732;
+}
+
+.email-img {
+   padding: 47px 40px;
+   background: url(../img/bobo.png) no-repeat center / cover;
+}
+
+.email__input-card {
+   max-width: 1360px;
+   height: 522px;
+   z-index: -1;
+   background: #161D27;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   padding-top: 89px;
+   padding-right: 100px;
+   padding-left: 100px;
+
+   gap: 46px;
+
+}
+
+.email__card {
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+   position: relative;
+}
+
+.imput-email {
+   color: #FBFBFB;
+   font-family: 'Outfit';
+   font-size: 23px;
+   width: 404.8px;
+   background: #161D27;
+   border-color: #161D27;
+   outline: none;
+   border: none;
+
+}
+
+.email__card::after {
+   background: #4E555F;
+   height: 1px;
+   content: '';
+   width: 100%;
+   margin-bottom: 120px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+
+}
+
+.email__card::before {
+   background: #4E555F;
+   height: 1px;
+   content: '';
+   width: 100%;
+   margin-bottom: -10px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+
+}
+
+.input-namber {
+   font-family: 'Outfit';
+   color: #FBFBFB;
+   font-size: 23px;
+   width: 404.8px;
+   background: #161D27;
+   border-color: #161D27;
+   outline: none;
+   border: none;
+}
+
+.imput-addres {
+   font-family: 'Outfit';
+   font-size: 23px;
+   color: #FBFBFB;
+   width: 404.8px;
+   background: #161D27;
+   border-color: #161D27;
+   outline: none;
+   border: none;
+}
+
+.input-subjekt {
+   font-family: 'Outfit';
+   font-size: 23px;
+   color: #FBFBFB;
+   width: 404.8px;
+   background: #161D27;
+   border-color: #161D27;
+   outline: none;
+   border: none;
+}
+
+.batten-link {
+   color: #3B434E;
+   padding: 31px 30px;
+   background: #FFFFFF;
+   font-family: 'Outfit';
+   font-size: 25px;
+   line-height: 21.6px;
+}
+
+.main-battn-card {
+   text-align: center;
+   transform: translateY(-150px);
+}
+
+.blogs-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 139px;
+   padding-bottom: 70px;
+   gap: 11px;
+
+}
+
+.blogs-name {
+   font-size: 45px;
+   line-height: 54px;
+   font-family: 'Cormorant Garamond';
+   color: #fff;
+}
+
+.blogs-card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 100px;
+   position: relative;
+}
+
+.blogs-card::after {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   margin-bottom: -100px;
+   height: 2px;
+   margin-top: 24px;
+   background: #4E555F;
+
+}
+
+.blogs__more-card {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.more__card-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   gap: 10px;
+   position: relative;
+}
+
+.more__card-title::before {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   margin-top: 24px;
+   background: #4E555F;
+
+}
+
+.more-name {
+   font-size: 21px;
+   color: #D1B06B;
+   line-height: 33px;
+   font-family: 'Outfit';
+
+}
+
+.more-nmadir {
+   color: #D1B06B;
+   font-size: 20px;
+}
+
+.more-titel {
+   font-size: 45px;
+   line-height: 58px;
+   color: #FFFFFF;
+   font-family: 'Outfit';
+   margin-bottom: 21px;
+}
+
+.more-text {
+   font-size: 20px;
+   font-family: 'Outfit';
+   color: #D7D7D7;
+   line-height: 32px;
+   margin-bottom: 17px;
+}
+
+.more-link {
+   color: #D1B06B;
+   font-size: 22px;
+   line-height: 35px;
+   font-family: 'Outfit';
+   position: relative;
+
+}
+
+.more-link::before {
+   background: #D1B06B;
+   height: 1px;
+   content: '';
+   width: 100%;
+
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.socia__card-law {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-top: 24px;
+   flex-wrap: wrap;
+}
+
+.socia__law-card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   position: relative;
+}
+
+.socia__law-card:before {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   margin-top: 14px;
+   background: #4E555F;
+
+}
+
+.section__socil-cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   padding-top: 100px;
+   flex-wrap: wrap;
+}
+
+.socia__law-title {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 34px;
+   color: #D1B06B;
+}
+
+.socia__law-name {
+   font-family: 'Cormorant Garamond';
+   padding: 22px 0;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+   color: #FFFFFF;
+   max-width: 421px;
+}
+
+.socia__text {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+   max-width: 421px;
+   padding-bottom: 16px;
+}
+
+.socia__law-link {
+   position: relative;
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 35px;
+   text-transform: capitalize;
+   color: #D1B06B;
+}
+
+.socia__law-link:before {
+   background: #D1B06B;
+   height: 1px;
+   content: '';
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.law-img {
+   max-width: 430px;
+}
+
+.quick__section-card img {
+   width: 100%;
+   margin: 140px 0;
+
+}
+
+.card__blog {
+   display: flex;
+   gap: 120px;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.atorneys__card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 94px;
+}
+
+.blog-card {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   gap: 60px;
+   flex-wrap: wrap;
+}
+
+.blog-title {
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+   color: #FFFFFF;
+   position: relative;
+}
+
+.blog-title:before {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   margin-bottom: - 10px;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   background: #3B434E;
+
+}
+
+.blog-title::after {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   margin-bottom: 44px;
+   background: #3B434E;
+
+}
+
+.blog-logo {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   gap: 20px;
+   margin-bottom: 80px;
+}
+
+.blog-link {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   text-transform: capitalize;
+   color: #D7D7D7;
+   transition: 0.3s;
+}
+
+.blog-link:hover {
+   color: #D1B06B;
+}
+
+.blog__namber {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   margin-top: 50px;
+   color: #D7D7D7;
+   transition: 0.3s;
+}
+
+.blog__email {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   text-transform: capitalize;
+   color: #D7D7D7;
+   transition: 0.3s;
+
+
+}
+
+.blog__email:hover {
+   color: #D1B06B;
+
+}
+
+.blog__namber:hover {
+   color: #D1B06B;
+
+}
+
+.footer__card-title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 109px;
+   position: relative;
+}
+
+span {
+   color: #D1B06B;
+}
+
+.footer__card-title:after {
+   position: absolute;
+   content: '';
+   top:  0;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   background: #3B434E;
+
+}
+
+.footer__card-title::before {
+   position: absolute;
+   content: '';
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 2px;
+   background: #3B434E;
+
+}
+
+.footer__card-txt {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D7D7D7;
+
+}
+
+.footer__link-card {
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   color: #D1B06B;
+  
+}
+
+.footer-link {
+   display: flex;
+   align-items: center;
+   justify-content: center; gap: 21px;
+
+}
